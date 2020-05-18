@@ -1,20 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1062
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03C25ECB-DD78-4E4B-A053-60C3BCC71C56}"
-	ProjectSection(SolutionItems) = preProject
-		src\LinksCheckers.Data\LinksChecker.Data.csproj = src\LinksCheckers.Data\LinksChecker.Data.csproj
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinksChecker.API", "src\LinksCheckers.Api\LinksChecker.API.csproj", "{94F8D841-3E0A-4E4B-8817-90E9D6C86A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinksChecker.Infrastructure", "src\LinksChecker.Infrastructure\LinksChecker.Infrastructure.csproj", "{7E135D44-52DD-476B-A9B3-F210AD926113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinksChecker.Infrastructure", "src\LinksChecker.Infrastructure\LinksChecker.Infrastructure.csproj", "{7E135D44-52DD-476B-A9B3-F210AD926113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinksCheckers.Data", "src\LinksCheckers.Data\LinksCheckers.Data.csproj", "{EECE07B3-BCDD-488F-BBB5-CF5511B873C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinksCheckers.Data.Models", "src\LinksCheckers.Data\LinksCheckers.Data.Models.csproj", "{EECE07B3-BCDD-488F-BBB5-CF5511B873C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinksCheckers.Utils", "src\LinksCheckers.Utils\LinksCheckers.Utils.csproj", "{4AFA4186-EDE7-4239-A4B2-537802CAFBD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinksCheckers.Utils", "src\LinksCheckers.Utils\LinksCheckers.Utils.csproj", "{4AFA4186-EDE7-4239-A4B2-537802CAFBD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinksChecker.Data.Access", "src\LinksChecker.Data.Access\LinksChecker.Data.Access.csproj", "{4EBFD306-0F01-4492-9831-AFD4EE9C8B04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +37,10 @@ Global
 		{4AFA4186-EDE7-4239-A4B2-537802CAFBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AFA4186-EDE7-4239-A4B2-537802CAFBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AFA4186-EDE7-4239-A4B2-537802CAFBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBFD306-0F01-4492-9831-AFD4EE9C8B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBFD306-0F01-4492-9831-AFD4EE9C8B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBFD306-0F01-4492-9831-AFD4EE9C8B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBFD306-0F01-4492-9831-AFD4EE9C8B04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +50,7 @@ Global
 		{7E135D44-52DD-476B-A9B3-F210AD926113} = {03C25ECB-DD78-4E4B-A053-60C3BCC71C56}
 		{EECE07B3-BCDD-488F-BBB5-CF5511B873C5} = {03C25ECB-DD78-4E4B-A053-60C3BCC71C56}
 		{4AFA4186-EDE7-4239-A4B2-537802CAFBD1} = {03C25ECB-DD78-4E4B-A053-60C3BCC71C56}
+		{4EBFD306-0F01-4492-9831-AFD4EE9C8B04} = {03C25ECB-DD78-4E4B-A053-60C3BCC71C56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BFDCF5F-530C-491C-9E27-772837AE246E}
