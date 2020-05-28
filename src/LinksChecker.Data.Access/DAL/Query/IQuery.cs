@@ -4,7 +4,8 @@ using System.Text;
 
 namespace LinksChecker.Data.Access.DAL.Query
 {
-    class IQuery
+    public interface IQuery<out T>
     {
+        T Execute(IDbConnection connection, IDbTransaction transaction);
     }
 }
